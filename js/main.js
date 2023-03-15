@@ -17,7 +17,7 @@ const { createApp } = Vue
             },
             {
                 testo : 'comprare sigarette',
-                done : false
+                done : true
             },
             {
                 testo : 'studiare',
@@ -29,7 +29,7 @@ const { createApp } = Vue
             },
             {
                 testo : 'cucinare qualcosa',
-                done : false
+                done : true
             },
             {
                 testo : 'andare al cinema',
@@ -41,9 +41,14 @@ const { createApp } = Vue
             },
             {
                 testo : 'andare fuori a cena',
-                done : false
+                done : true
             }
         ]
       }
+    },
+
+    methods :{
+        
+
     }
   }).mount('#app')
