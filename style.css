@@ -1,0 +1,10 @@
+.pointer{
+    cursor: pointer;
+}
+.border_row{
+    border: 2px solid lightblue;
+    border-radius: 15px;
+}
+.color_title{
+    color: greenyellow;
+}
