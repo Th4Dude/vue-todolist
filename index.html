@@ -35,9 +35,9 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-6 my-5">
                     <div class="input-group mb-3 border_row">
-                        <input type="text" class="form-control" placeholder="Aggiungi qualcosa al todolist"
+                        <input v-on:keyup.enter="aggiungere" v-model="addtodolist" type="text" class="form-control" placeholder="Aggiungi qualcosa al todolist"
                             aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button @click="aggiungere" class="btn btn-outline-secondary" type="button" id="button-addon2">Aggiungi</button>
+                        <button  @click="aggiungere" class="btn btn-outline-secondary" type="button" id="button-addon2">Aggiungi</button>
                     </div>
                 </div>
             </div>

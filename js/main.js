@@ -57,10 +57,13 @@ createApp({
         },
         aggiungere() {
             console.log(this.aggiungere)
-            
+            if (this.addtodolist !== '') {
+                this.todolist.push({
+                    testo:this.addtodolist,
+                    done: false
+                });
+                this.addtodolist= '';
+            }
         }
-
-
-
     }
 }).mount('#app')
