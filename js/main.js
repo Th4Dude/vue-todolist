@@ -48,7 +48,9 @@ const { createApp } = Vue
     },
 
     methods :{
-        
+        rimuovere(index){
+            this.todolist.splice(index,1);
+        }
 
     }
   }).mount('#app')
